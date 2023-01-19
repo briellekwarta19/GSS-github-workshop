@@ -3,6 +3,8 @@ library(tidyverse)
 file_path <- here::here("data", "pokemon.csv")
 poke_dat <- read.csv(file_path, header = T)
 
+#this is a comment
+
 #ggplot
 
 
