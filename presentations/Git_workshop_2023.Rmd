@@ -1,8 +1,8 @@
 ---
 title: "Git and GitHub"
-subtitle: "A workshop for useRs"
-author: "Hannah Sipe, Brielle K Thompson, Matt Farr <br><span style = 'font-size: 50%;'>SAFS GSS 2021<br></span>"
-date: 'October 27, 2021<br><br>`r icons::icon_style(icons::fontawesome("github"), scale = 1, fill = "#b58900")` [Github repo link](https://github.com/aebratt/GSS-github-workshop)'
+subtitle: "A workshop for useRs (Adapted from 2021 GSS Workshop)"
+author: "Hannah Sipe, Brielle Thompson, Matt Farr <br><span style = 'font-size: 50%;'>SAFS GSS 2021<br></span>"
+date: 'January 25, 2023<br><br>`r icons::icon_style(icons::fontawesome("github"), scale = 1, fill = "#b58900")` [Github repo link](https://github.com/aebratt/GSS-github-workshop)'
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -70,7 +70,7 @@ library(here)
 library(knitr)
 library(xaringanBuilder)
 library(chromote)
-#build_pdf(here("presentations", "SAFS_GSS_Git_workshop_2021.Rmd"), partial_slides = TRUE)
+# build_pdf(here("presentations", "Git_workshop_2023.Rmd"), partial_slides = TRUE)
 ```
 
 # Pre-workshop homework
@@ -476,11 +476,11 @@ knitr::include_graphics("libs/imgs/Cache1.PNG")
 
 # Exercises
 
-- Email [Abby](aebratt@uw.edu) your GitHub handle so she can add you to the repository for this workshop
+- Email [Brielle](bkwarta@uw.edu) your GitHub handle so she can add you to the repository for this workshop
 
 - Create an SSH key in RStudio and store it in GitHub
 
-- Clone the [repository](https://github.com/aebratt/GSS-github-workshop) for this workshop to your computer
+- Clone the repository for this workshop to your computer
 
 - Make an R script titled `plot_*yourname*` inside the `scripts` folder that creates a plot of your choice using the data from the `data` folder. Stage, commit, and pull/push. 
 
@@ -635,7 +635,7 @@ knitr::include_graphics("libs/imgs/git-branches-merge.png")
 
 - On GitHub, issue a pull request to merge your branch with the main branch
 
-- Repo owner (Abby) will approve/deny the request
+- Repo owner will approve/deny the request
 
 ---
 
