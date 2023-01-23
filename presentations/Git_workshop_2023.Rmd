@@ -1,8 +1,8 @@
 ---
 title: "Git and GitHub"
 subtitle: "A workshop for useRs (Adapted from 2021 GSS Workshop)"
-author: "Hannah Sipe, Brielle Thompson, Matt Farr <br><span style = 'font-size: 50%;'>SAFS GSS 2021<br></span>"
-date: 'January 25, 2023<br><br>`r icons::icon_style(icons::fontawesome("github"), scale = 1, fill = "#b58900")` [Github repo link](https://github.com/aebratt/GSS-github-workshop)'
+author: "Hannah Sipe, Brielle Thompson, Matt Farr <br><span style = 'font-size: 50%;'>Converse Lab Meeting<br></span>"
+date: 'January 25, 2023<br><br>`r icons::icon_style(icons::fontawesome("github"), scale = 1, fill = "#b58900")` [Github repo link](https://github.com/Quantitative-Conservation-LabResources/Github-workshop)'
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -471,6 +471,10 @@ knitr::include_graphics("libs/imgs/Cache1.PNG")
 ---
 
 # Editing the `.gitignore` file
+
+- See exercise [here](https://carpentries-incubator.github.io/git-Rstudio-course/02-ignore/index.html)
+
+-See rules [here](https://www.w3schools.com/git/git_ignore.asp?remote=github)
 
 ---
 
