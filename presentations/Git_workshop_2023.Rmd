@@ -562,7 +562,7 @@ knitr::include_graphics("libs/imgs/ConflictR2.PNG")
 
 ---
 
-# Exercises
+# Exercise 2
 
 - Pull from GitHub
 
@@ -630,7 +630,7 @@ knitr::include_graphics("libs/imgs/git-branches-merge.png")
 
 ---
 
-# Exercises
+# Exercise 3
 
 - Create a new branch titled `yourName`
 
@@ -681,7 +681,7 @@ Usually your files are JUST FINE. But it is easy to goof up the Git infrastructu
 
 ---
 
-# Exercise 3
+# Exercise 4
 
 - Practice burning it all down and re-cloning from GitHub using this workshop's repository as an example
 
