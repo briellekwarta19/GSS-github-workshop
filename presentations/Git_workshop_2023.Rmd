@@ -625,9 +625,19 @@ knitr::include_graphics("libs/imgs/git-branches-merge.png")
 # Create branch for feature development
 
 
+.center[
+```{r branch, echo = FALSE, out.width="75%"}
+knitr::include_graphics("libs/imgs/mtf2.PNG")
+```
+]
+
+
 ---
 
 # Issue a pull request
+
+
+
 
 ---
 
