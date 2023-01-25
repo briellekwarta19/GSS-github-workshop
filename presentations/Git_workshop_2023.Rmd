@@ -624,20 +624,41 @@ knitr::include_graphics("libs/imgs/git-branches-merge.png")
 
 # Create branch for feature development
 
-
 .center[
 ```{r branch, echo = FALSE, out.width="75%"}
 knitr::include_graphics("libs/imgs/mtf2.PNG")
 ```
 ]
 
+---
+
+# Create branch for feature development
+
+.center[
+```{r edits, echo = FALSE, out.width="75%"}
+knitr::include_graphics("libs/imgs/mtf3.PNG")
+```
+]
 
 ---
 
 # Issue a pull request
 
+.center[
+```{r push, echo = FALSE, out.width="75%"}
+knitr::include_graphics("libs/imgs/mtf4.PNG")
+```
+]
 
+---
 
+# Issue a pull request
+
+.center[
+```{r pull, echo = FALSE, out.width="75%"}
+knitr::include_graphics("libs/imgs/mtf5.PNG")
+```
+]
 
 ---
 
@@ -652,6 +673,16 @@ knitr::include_graphics("libs/imgs/mtf2.PNG")
 - On GitHub, issue a pull request to merge your branch with the main branch
 
 - Repo owner will approve/deny the request
+
+---
+
+#Forking as an alternative
+
+- Create a fork of the target repository
+
+- Add new feature in your own repository
+
+- Send pull request to upstream repository
 
 ---
 
@@ -670,6 +701,12 @@ Copy and paste from **diff**
 or 
 
 UNDO in GitKraken
+
+--
+
+Go back in time w/ detached HEAD
+
+```git checkout <commit id>```
 
 ---
 
@@ -695,6 +732,12 @@ Usually your files are JUST FINE. But it is easy to goof up the Git infrastructu
 # Exercise 4
 
 - Practice burning it all down and re-cloning from GitHub using this workshop's repository as an example
+
+.center[
+```{r clone, echo = FALSE, out.width="75%"}
+knitr::include_graphics("libs/imgs/mtf1.PNG")
+```
+]
 
 ---
 
