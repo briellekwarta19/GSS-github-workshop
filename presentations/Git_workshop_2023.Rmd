@@ -127,6 +127,7 @@ library(chromote)
 **Adapted from ** 
 - Jenny Bryan, [Happy Git with R](https://happygitwithr.com/)
 - [Atlassian Git tutorials](https://www.atlassian.com/git/tutorials)
+- 2021 SAFS Graduate School Symposium (Abby Bratt, Zoe Rand, Brielle Thompson)
 
 ---
 
