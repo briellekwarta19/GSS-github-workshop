@@ -1,8 +1,8 @@
 ---
 title: "Git and GitHub"
-subtitle: "A workshop for useRs"
-author: "Abby Bratt, Brielle K Thompson, Zoe Rand <br><span style = 'font-size: 50%;'>SAFS GSS 2021<br></span>"
-date: 'October 27, 2021<br><br>`r icons::icon_style(icons::fontawesome("github"), scale = 1, fill = "#b58900")` [Github repo link](https://github.com/aebratt/GSS-github-workshop)'
+subtitle: "A workshop for useRs (Adapted from 2021 GSS Workshop)"
+author: "Hannah Sipe, Brielle Thompson, Matt Farr <br><span style = 'font-size: 50%;'>Converse Lab Meeting<br></span>"
+date: 'January 25, 2023<br><br>`r icons::icon_style(icons::fontawesome("github"), scale = 1, fill = "#b58900")` [Github repo link](https://github.com/Quantitative-Conservation-LabResources/Github-workshop)'
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -70,7 +70,7 @@ library(here)
 library(knitr)
 library(xaringanBuilder)
 library(chromote)
-#build_pdf(here("presentations", "SAFS_GSS_Git_workshop_2021.Rmd"), partial_slides = TRUE)
+# build_pdf(here("presentations", "Git_workshop_2023.Rmd"), partial_slides = TRUE)
 ```
 
 # Pre-workshop homework
@@ -127,6 +127,7 @@ library(chromote)
 **Adapted from ** 
 - Jenny Bryan, [Happy Git with R](https://happygitwithr.com/)
 - [Atlassian Git tutorials](https://www.atlassian.com/git/tutorials)
+- 2021 SAFS Graduate School Symposium (Abby Bratt, Zoe Rand, Brielle Thompson)
 
 ---
 
@@ -470,17 +471,13 @@ knitr::include_graphics("libs/imgs/Cache1.PNG")
 
 ---
 
-# Editing the `.gitignore` file
+# Exercise 1
 
----
-
-# Exercises
-
-- Email [Abby](aebratt@uw.edu) your GitHub handle so she can add you to the repository for this workshop
+- Email [Brielle](bkwarta@uw.edu) your GitHub handle so she can add you to the repository for this workshop
 
 - Create an SSH key in RStudio and store it in GitHub
 
-- Clone the [repository](https://github.com/aebratt/GSS-github-workshop) for this workshop to your computer
+- Clone the repository for this workshop to your computer
 
 - Make an R script titled `plot_*yourname*` inside the `scripts` folder that creates a plot of your choice using the data from the `data` folder. Stage, commit, and pull/push. 
 
@@ -566,7 +563,7 @@ knitr::include_graphics("libs/imgs/ConflictR2.PNG")
 
 ---
 
-# Exercises
+# Exercise 2
 
 - Pull from GitHub
 
@@ -581,6 +578,15 @@ knitr::include_graphics("libs/imgs/ConflictR2.PNG")
 - With your partner, resolve the resulting merge conflict
 
 - Stage, commit, pull and push
+
+---
+
+
+# Editing the `.gitignore` file
+
+- See exercise [here](https://carpentries-incubator.github.io/git-Rstudio-course/02-ignore/index.html)
+
+-See rules [here](https://www.w3schools.com/git/git_ignore.asp?remote=github)
 
 ---
 
@@ -618,14 +624,45 @@ knitr::include_graphics("libs/imgs/git-branches-merge.png")
 
 # Create branch for feature development
 
+.center[
+```{r branch, echo = FALSE, out.width="75%"}
+knitr::include_graphics("libs/imgs/mtf2.PNG")
+```
+]
+
+---
+
+# Create branch for feature development
+
+.center[
+```{r edits, echo = FALSE, out.width="75%"}
+knitr::include_graphics("libs/imgs/mtf3.PNG")
+```
+]
 
 ---
 
 # Issue a pull request
 
+.center[
+```{r push, echo = FALSE, out.width="75%"}
+knitr::include_graphics("libs/imgs/mtf4.PNG")
+```
+]
+
 ---
 
-# Exercises
+# Issue a pull request
+
+.center[
+```{r pull, echo = FALSE, out.width="75%"}
+knitr::include_graphics("libs/imgs/mtf5.PNG")
+```
+]
+
+---
+
+# Exercise 3
 
 - Create a new branch titled `yourName`
 
@@ -635,7 +672,17 @@ knitr::include_graphics("libs/imgs/git-branches-merge.png")
 
 - On GitHub, issue a pull request to merge your branch with the main branch
 
-- Repo owner (Abby) will approve/deny the request
+- Repo owner will approve/deny the request
+
+---
+
+#Forking as an alternative
+
+- Create a fork of the target repository
+
+- Add new feature in your own repository
+
+- Send pull request to upstream repository
 
 ---
 
@@ -654,6 +701,12 @@ Copy and paste from **diff**
 or 
 
 UNDO in GitKraken
+
+--
+
+Go back in time w/ detached HEAD
+
+```git checkout <commit id>```
 
 ---
 
@@ -676,14 +729,20 @@ Usually your files are JUST FINE. But it is easy to goof up the Git infrastructu
 
 ---
 
-# Exercises
+# Exercise 4
 
 - Practice burning it all down and re-cloning from GitHub using this workshop's repository as an example
 
+.center[
+```{r clone, echo = FALSE, out.width="75%"}
+knitr::include_graphics("libs/imgs/mtf1.PNG")
+```
+]
+
 ---
 
-# If we have time
+# Topics we did not cover
 
 - What to do if you have [large files](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github) (that you want on GitHub)
-- A little bit of Git from the command line
-- A little bit of Git from GitKraken
+- Git from the command line
+- Git from GitKraken

@@ -11,4 +11,4 @@ knitr::opts_chunk$set(
 )
 ```
 
-This repo is for the 2021 SAFS GSS workshop on Git and GitHub for the useR, led by Abby Bratt, Brielle K Thompson, and Zoe Rand. 
+This repo is for a github workshop for a Converse Lab Meeting on 1/25/2023 let by Brielle Thompson, Hannah Sipe, and Matt Farr
